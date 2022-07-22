@@ -11,3 +11,191 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.imgWeather {
+  width: 140px;
+}
+
+.imgCountry{
+  width: 500px;
+  object-fit: contain;
+}
+.container-result {
+  background-size: cover;
+  background-position: center center;
+  color: rgb(0, 0, 0);
+}
+.textStatus{
+  background: rgb(195, 195, 255);
+  width: 100%;
+  color: white;
+  padding: 7px;
+  text-align: center;
+}
+.myWeatherInfo{
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+}
+#name{
+  color: #9999fd;
+}
+.myWeatherInfo h2, .myWeatherInfo h3, .myWeatherInfo h4 {
+  margin-top: 20px;
+}
+
+.tittle h1{
+  font-size: 30px;
+  color: #9999fd;
+  margin-bottom: 40px;
+}
+.formulario{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+}
+.Select select{
+  border-radius: 31px;
+  color: #646262;
+}
+.type input{
+    border-radius: 31px;
+    border: none;
+    background: #f3f3f3;
+    outline: none;
+    padding: 12px;
+    color: #625f5f;
+    font-size: 17px;
+}
+.Select{
+  width: 20%;
+}
+.Select select{
+  padding: 12px;
+  outline: none;
+}
+.type button{
+  border: none;
+  padding: 12px 20px;
+  border-radius: 27px;
+  color: white;
+  background: #9999fd;
+  font-weight: bold;
+}
+.formulario{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.type{
+  width:80%;
+}
+.type input{
+  width: 82%;
+  margin: 0% 3%;
+}
+.container-result{
+  width: 80%;
+  margin: 3% 10%;
+  /* height: 87vh; */
+  /* padding: 60px; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.content-w{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  backdrop-filter: brightness(0.5);
+  padding: 60px;
+  color: white;
+  text-align: left;
+}
+p.noR{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+}
+.charger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #9999fd;
+  margin-top: 100px;
+}
+
+@media(max-width: 1231px) {
+
+.myWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3f3f3;
+    overflow: hidden;
+    height: 87vh;
+    justify-content: inherit;
+    width: 100%!important;
+}
+.weather {
+    width: 100%!important;
+}
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.Select {
+    width: 34%;
+    font-size:10px
+}
+.Select select {
+    padding: 7px;
+    outline: none;
+}
+.type {
+    width: 74%;
+}
+.type input {
+    width: 60%;
+    margin: 0% 7%;
+     border-radius: 31px;
+    border: none;
+    background: #f3f3f3;
+    outline: none;
+    padding: 12px;
+    color: #625f5f;
+    font-size: 13px;
+}
+.box-myW {
+  display: flex;
+  flex-direction: column!important;
+  justify-content: space-between;
+}
+.charger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #9999fd;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+}
+
+/*
+
+
+
+*/
